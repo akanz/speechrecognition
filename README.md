@@ -11,4 +11,4 @@ How to use
 *Call basic commands like 'What is your name', 'what is the time', 'what is the location etc'*
 if no voice response, the computer tells you it does not understand
 
-*you can also ask 'who are you', 'search for something on the internet', 'ask for the weather'
+*you can also ask 'who are you', 'search for something on the internet', 'ask for the weather'*
