@@ -69,13 +69,13 @@ def respond(voice_data):
         returnSpeech('here is the location of ' + location)
 
     if 'can you hear' in voice_data:
-        returnSpeech('Yes I can hear you')
+        returnSpeech('Yes I can hear you, what will you like me to do for you?')
 
 
     if 'weather' in voice_data:
         loc = rec_audio('what is the location?')
 
-        resp = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+loc+'&appid=' + config.api_key + "'")
+        resp = requests.get('http://api.openweathermap.org/data/2.5/weather?q=' + loc + config.api_key)
         if resp.status_code == 200:
             data = [resp.json()]
             for i in data:
