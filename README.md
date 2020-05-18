@@ -2,6 +2,8 @@
 
 How to use
 
+*download or clone the repo --> git clone https://github.com/akanz/speechrecognition.git*
+
 *Create a New python project and pip install speechrecognition, pyttsx3, requests*
   - speechrecognition is to recognize the words that the computer will accept
   - pyttsx3 is to playback the word receives from the user by the computer
